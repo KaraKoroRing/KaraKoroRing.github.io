@@ -1,0 +1,115 @@
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+	font-family:'Noto Sans JP', sans-serif;
+	font-style: inherit;
+	font-weight: inherit;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+body{
+    width:100%
+    background-color: #ffd;
+	background-image: url("../img/bg.png");
+    background-size: cover;
+	background-attachment:scroll;
+	
+	
+/*	outline: 0;*/
+}
+
+.logo{
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 60px;
+}
+
+.container{
+	margin:10px 0px 10px 0px;
+	background-image:url(../img/w.png);
+	height: 690px;
+	width: 1200px;
+	top: 80px;
+    left:60px;
+	position: relative;
+	border-radius: 65px;
+    opacity: 1;
+}
+
+.main1{
+	position: relative;
+	right:-10px;
+    top:-30px;
+	margin: 10px 20px;
+	overflow: hidden;
+	overflow-y:scroll;
+	width: 95%;
+	height: 93%;
+	color: #1D100f;
+
+}	
+    
+.content-1{
+	margin: 0px 20px;
+	width: 600px;
+	height: 700px;
+	top: 15px;
+    display: inline-block;
+	position: relative;
+    
+}
+    
+.content-2{
+    margin: 0px 20px;
+	width: 350px;
+	height: 700px;
+	left: 0px;
+    top:15px;
+    display: inline-block;
+	position: relative;
+}
+
+.content-2 p{
+    line-height:16px;
+}
+
+h1{
+    font-family: 'Kelly Slab', cursive;
+    font-size: 40px;
+    text-shadow:9px 3px 0px #fff;
+    margin:1;
+    padding:4px;
+    display: inline-block;
+	position: relative;
+}
+
+.txt1{
+    margin:0px 0px;
+    width: 580px;
+    height: 600px;
+    left:5px;
+    top:25px;
+    line-height:24px;
+    display: inline-block;
+	position: relative;
+}
+
+.txt1  p{
+	font-size: 16px;
+    line-height: 18px;
+    padding-top:6px;
+    padding-bottom: 4px;
+}

@@ -1,0 +1,126 @@
+.audiojs audio {
+}
+
+/*　プレイヤー（再生バー）　*/
+.audiojs {
+    height: 42px;
+    background: #fff;
+    width: 320px;
+    padding:4px;
+    border-radius: 25px;  
+    margin:5px 5px;
+}
+
+/*　再生・停止ボタンの高さ、幅、パディングの指定　*/
+.audiojs .play-pause {
+    width: 32px; 
+    height: 32px;
+    padding: 0px 4px 6px 0px; 
+}
+
+/*　再生・停止ボタンなどの p 要素　*/
+.audiojs p { 
+    display:none;
+    width: 42px; 
+    height: 42px; 
+    margin: 0px 0px 0px 3px;
+}
+
+/*　進行状態・ロードの状態を表示する部分　*/
+.audiojs .scrubber { 
+    background: #ddd; 
+    width: 160px; 
+    height: 12px;
+    margin: 15px 4px 15px 12px; 
+}
+
+/*　進行状態を表示するバーの部分　*/
+.audiojs .progress { 
+    height: 12px;
+    width: 0px; 
+    background: #bbb; 
+}
+
+/*　ロード状態を表示するバーの部分　*/
+.audiojs .loaded {
+    height: 10px; 
+    background: #ddd;}
+
+/*　再生時間の部分　*/
+.audiojs .time { 
+    float: left; 
+    height: 24px;
+    padding-left: 6px;
+    line-height: 24px;
+    padding: 8px 0px 8px 6px;
+    vertical-align: bottom;
+}
+
+.audiojs .error-message { 
+    height: 24px;
+    line-height: 24px;
+}
+
+/*　再生している曲の情報　*/
+.track-details {
+    clear: both;
+    height: 20px;
+    width: 100px;
+    padding: 1px 6px; 
+    background: #eee; 
+    color: #000;  
+    font-size: 11px;
+    line-height: 10px;
+}
+
+.track-details:before {
+    content: '♬ Now Playing ♬ : ';
+}
+
+/*　再生ボタン　*/
+.audiojs .play {
+    background: url("../img/button/play.png") center center no-repeat; /*再生ボタン*/
+    margin-left: 0px;
+}
+
+/*　停止ボタン　*/
+.audiojs .pause {
+    background: url("../img/button/stop.png") center center no-repeat; /*停止ボタン*/
+    margin-left:-1px;
+}
+
+/*　読み込み中　*/
+.audiojs .loading {
+/*background: url("$1") center center no-repeat;*/
+display: none;
+}
+
+/*　エラー */
+.audiojs .error {
+/*background: url("$1") center center no-repeat;*/
+display: none;
+}
+
+.playing .play, .playing .loading, .playing .error {
+display: none;
+}
+.playing .pause {
+display: block;
+}
+.loading .play, .loading .pause, .loading .error {
+display: none;
+}
+.loading .loading {
+display: block;
+}
+.error .time, .error .play, .error .pause, .error .scrubber, .error .loading {
+display: none;
+}
+.error .error {
+display: block;
+}
+.error .play-pause p {
+cursor: auto;
+}
+.error .error-message {
+display: block;
