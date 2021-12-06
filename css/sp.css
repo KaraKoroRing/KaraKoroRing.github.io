@@ -86,7 +86,7 @@ body{
     
 .content-1{
 	margin: 0px 20px;
-	width: 430px;
+	width: 380px;
 	height: 600px;
 	top: 15px;
     display: inline-block;
@@ -96,7 +96,7 @@ body{
     
 .content-2{
     margin: 0px 20px;
-	width: 350px;
+	width: 380px;
 	height: 600px;
 	left: 0px;
     top:15px;
@@ -104,7 +104,7 @@ body{
 	position: relative;
 }
 
-.content-2 p{
+p{
     line-height:16px;
 }
 
@@ -120,7 +120,7 @@ h1{
 
 .txt1{
     margin:0px 0px;
-    width: 430px;
+    width: 380px;
     height: 600px;
     left:5px;
     top:25px;
