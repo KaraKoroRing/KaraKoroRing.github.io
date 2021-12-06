@@ -59,11 +59,11 @@ body{
 }
 
 .container{
-	margin:10px 25px 10px 25px;
+	margin:10px 20px 10px 20px;
 	background-image:url(../img/w.png);
     background-position: center;
     height:720px;
-	width: 430px;
+	width: 440px;
 	top: 80px;
 	position: relative;
 	border-radius: 25px;
@@ -86,8 +86,8 @@ body{
     
 .content-1{
 	margin: 0px 20px;
-	width: 600px;
-	height: 700px;
+	width: 430px;
+	height: 600px;
 	top: 15px;
     display: inline-block;
 	position: relative;
@@ -97,7 +97,7 @@ body{
 .content-2{
     margin: 0px 20px;
 	width: 350px;
-	height: 700px;
+	height: 600px;
 	left: 0px;
     top:15px;
     display: inline-block;
@@ -120,7 +120,7 @@ h1{
 
 .txt1{
     margin:0px 0px;
-    width: 580px;
+    width: 430px;
     height: 600px;
     left:5px;
     top:25px;
