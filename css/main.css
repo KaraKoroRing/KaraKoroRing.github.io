@@ -36,9 +36,10 @@ body{
 
 
 .page{
-    float: right;
-    background-image:url();
     position: fixed;
+/* 
+    background-image:url();
+*/
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
