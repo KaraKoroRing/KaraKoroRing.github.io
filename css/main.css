@@ -14,29 +14,39 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family:'Noto Sans JP', sans-serif;
 	font-style: inherit;
 	font-weight: inherit;
-    background-position: center;
+    background-position: right;
     background-attachment: fixed;
     scroll-behavior: smooth;
 }
 
+body,
+html {
+    height: 100%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
 body{
-    background-color: #ffd;
-	background-image: url("../img/bg1.png");
-	background-attachment:fixed;
+    background-image:url(../img/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
-	
-/*	outline: 0;*/
 }
 
-.bg{
-    right:0;
-    bottom:0;
-    position: absolute;
-    z-index: 5;
+
+.page{
+    right:0px;
+    background-image:url(../img/bg2.png);
+    position: fixed;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto,cover;
     height:100%;
+    width:100%;
+    z-index:5;
 }
-
 
 .logo{
 	float: left;
@@ -45,6 +55,7 @@ body{
 	left: 60px;
     z-index:7;
 }
+
 
 .container{
 	margin:10px 0px 10px 0px;
@@ -57,6 +68,7 @@ body{
 	border-radius: 65px;
     z-index:6;
 }
+
 
 .main1{
 	position: relative;
