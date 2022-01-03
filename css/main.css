@@ -82,7 +82,7 @@ body{
 .container{
 	background-image:url(../img/w3.png);
     background-repeat: repeat;
-	width: 90%;
+	width: 93%;
 	height:85%;
 	top: 80px;
     left:60px;
@@ -107,7 +107,7 @@ body{
 .content-1{
 	margin: 0px 30px;
 	width: 550px;
-	height: 99%;
+	height: 600px;
 	top: 5px;
     margin-bottom: 0px;
     display: inline-block;
@@ -116,7 +116,7 @@ body{
 }
     
 .content-2{
-    margin:auto;
+    margin:0 auto;
 	width: 380px;
 	height: 99%;
     top:5px;
