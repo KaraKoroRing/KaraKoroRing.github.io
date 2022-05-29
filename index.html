@@ -47,6 +47,17 @@
     <script src="js/stickyfill.min.js"></script>
     <script src="js/style.js"></script>
     
+<script>
+var audios = document.querySelectorAll( "audio" );
+for(var i=0;i<audios.length;i++){
+audios[ i ].addEventListener( "play", function(){
+for(var j=0;j<audios.length;j++){
+if( audios[ j ]!=this ){ audios[ j ].pause() }
+}
+}, false );
+}
+</script>
+    
     <script>
     audiojs.events.ready(function() {
     var as = audiojs.createAll();
