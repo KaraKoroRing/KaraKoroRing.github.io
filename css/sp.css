@@ -32,7 +32,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
-    width:480px;
+    width:100%;
 }
 
 
@@ -63,7 +63,7 @@ body{
 	background-image:url(../img/w2.png);
     background-position: center;
     height:720px;
-	width: 440px;
+	width: 450px;
 	top: 80px;
 	position: relative;
 	border-radius: 25px;
