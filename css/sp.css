@@ -103,6 +103,16 @@ body{
 	position: relative;
 }
 
+.content-3{
+    margin: 0px 0px 0px 5px;
+	width: 95%;
+	height: 800px;
+	left: 0px;
+    top:10px;
+    display: inline-block;
+	position: relative;
+}
+
 p{
     line-height:16px;
 }
@@ -135,3 +145,21 @@ h1{
     padding-bottom: 4px;
 }
 
+
+.txt2{
+    margin:0px 0px;
+    width: 90%;
+    height: 600px;
+    left:5px;
+    top:25px;
+    line-height:32px;
+    display: inline-block;
+	position: relative;
+}
+
+.txt2  p{
+	font-size: 14px;
+    line-height: 20px;
+    padding-top:6px;
+    padding-bottom: 4px;
+}
